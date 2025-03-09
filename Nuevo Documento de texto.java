@@ -25,7 +25,7 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping(path = "/ClientesMorosos/rest")
+@RequestMapping(path = "/curso git/rest")
 public class BusquedaMorososController {
 
     private static final Logger log = LogManager.getLogger(BusquedaMorososController.class);
@@ -51,7 +51,7 @@ public class BusquedaMorososController {
         }
     }
 
-     @RequestMapping(value = "/busquedaClientesMorosos", method = RequestMethod.POST)
+     @RequestMapping(value = "/GitHub", method = RequestMethod.POST)
     public ResponseEntity<String> busquedaClientesMorosos(@RequestBody String json) {
         initialized();
         log.info("Inicio busquedaClientesMorosos json: " + json);
