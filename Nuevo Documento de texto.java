@@ -79,11 +79,6 @@ public class BusquedaMorososController {
         }
 
 
-        //dao
-        //1.1) Revisamos si tiene crédito tradicional pendiente de pago vencido
-        //1.2) Revisamos si tiene crédito tradicional en la base extrajudicial pendiente de pago (esté o no vencido) ("Cliente no sujeto a crédito")
-        //1.3) Revisamos si tiene una Línea de crédito fácil pendiente de pago (al menos una disposición vencida)   
-        
         try {
             //buscar si pertenece a empleados
             Boolean esEmpleado = null;
