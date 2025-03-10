@@ -28,7 +28,7 @@ import java.util.List;
 @RequestMapping(path = "/curso git/rest")
 public class BusquedaMorososController {
 
-    private static final Logger log = LogManager.getLogger(BusquedaMorososController.class);
+    private static final java.util.logging.Logger log = LogManager.getLogger(BusquedaMorososController.class);
 
     private static Apps apps = null;
     private static BusquedaMorososDAO bmdao = null;
@@ -36,6 +36,9 @@ public class BusquedaMorososController {
     @Autowired
     protected IPAuthenticationProvider authenticationManager;
 
+    /**
+     * 
+     */
     private static void initialized() {
         
         try {
@@ -47,7 +50,9 @@ public class BusquedaMorososController {
             bmdao = (BusquedaMorososDAO) s.getApplicationContext().getBean("BusquedaMorososDAO");
 
         } catch (Exception e) {
+            //log
             log.error(e.getMessage());
+            log.info(e.getMessage());
         }
     }
 
