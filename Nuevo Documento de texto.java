@@ -37,7 +37,7 @@ public class BusquedaMorososController {
     protected IPAuthenticationProvider authenticationManager;
 
     /**
-     * 
+     * se cambio color
      */
     private static void initialized() {
         
@@ -52,7 +52,7 @@ public class BusquedaMorososController {
         } catch (Exception e) {
             //log
             log.error(e.getMessage());
-            log.info(e.getMessage());
+            log.info();
         }
     }
 
