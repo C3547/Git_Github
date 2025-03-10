@@ -25,7 +25,7 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping(path = "/curso git/rest")
+@RequestMapping(path = "/rama principal/rest")
 public class BusquedaMorososController {
 
     private static final java.util.logging.Logger log = LogManager.getLogger(BusquedaMorososController.class);
