@@ -169,6 +169,8 @@ public class BusquedaMorososController {
             
             log.info("respuestaproc: " + gson.toJson(respuesta));
             log.info("respuestacero: " + gson.toJson(respuestaCero));
+            log.info("git vs github: " + gson.toJson(respuestaCero));
+
             //validar respuesta y respuestacero
             if (respuesta.getCodigo() == 3 || respuestaCero.getCodigo() == 3){
                 respuesta.setCodigo(3);
