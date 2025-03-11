@@ -37,7 +37,7 @@ public class BusquedaMorososController {
     protected IPAuthenticationProvider authenticationManager;
 
     /**
-     * 
+     * se cambio color
      */
     private static void initialized() {
         
@@ -47,12 +47,12 @@ public class BusquedaMorososController {
                 if (apps == null) // si la referencia es null ...
                     apps = s; // ... agrega la clase singleton
             }
-            bmdao = (BusquedaMorososDAO) s.getApplicationContext().getBean("BusquedaMorososDAO");
+            bmdao = (BusquedaMorososDAO) s.getApplicationContext().getBean("Titulo app bar");
 
         } catch (Exception e) {
             //log
             log.error(e.getMessage());
-            log.info(e.getMessage());
+            log.info();
         }
     }
 
