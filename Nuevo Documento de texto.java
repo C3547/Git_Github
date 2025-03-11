@@ -25,7 +25,7 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping(path = "/rama principal/rest")
+@RequestMapping(path = "/rama principal/boton presionado")
 public class BusquedaMorososController {
 
     private static final java.util.logging.Logger log = LogManager.getLogger(BusquedaMorososController.class);
