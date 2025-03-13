@@ -185,7 +185,7 @@ public class BusquedaMorososController {
 
             if (respuestaCero.getCodigo() == -2){
                 respuesta.setCodigo(-2);
-                respuesta.setMensaje("Error al obtener dias vencido cero");
+                respuesta.setMensaje("Curos GIt hub");
             }
 
         } catch (Exception e) {
